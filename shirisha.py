@@ -43,7 +43,7 @@ st.title("Crude Oil Price Forecasting App for ARIMA Model")
 
 # Add an image of crude oil
 # Ensure the image path is correct
-image_path = 'crude-oil-image.jpeg'
+image_path = 'Crude-Oil-Image.jpeg'
 if os.path.exists(image_path):
     st.image(image_path, caption="Crude Oil", use_column_width=True)
 else:
